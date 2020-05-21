@@ -79,7 +79,7 @@ app.post('/gogaga/add', (req,res) => {
     }
 })
 
-
+//Serve app
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
 })
